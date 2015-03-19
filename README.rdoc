@@ -1,3 +1,8 @@
+= Note
+This forked aws-s3 removes cattr_* methods from Class extension and add activesupport as a gem dependency
+to address the problem on newer Rails (or Ruby). 
+This fixes the problem described here https://github.com/marcel/aws-s3/issues/102
+
 = AWS::S3
 
 AWS::S3 is a Ruby library for Amazon's Simple Storage Service's REST API (http://aws.amazon.com/s3).
